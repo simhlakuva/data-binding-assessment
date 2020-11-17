@@ -30,7 +30,7 @@
                     VerticalOptions="Center"
                     Aspect="AspectFit" />
 
-            <Picker x:Name="country" />
+            <Picker x:Name="country"  SelectedItem="{Binding Country}"/>
 
             <Label Text="Current Design was Adopted on" FontAttributes="Bold" />
             <DatePicker x:Name="adopted" MinimumDate="01/01/1700" HorizontalOptions="Start" />

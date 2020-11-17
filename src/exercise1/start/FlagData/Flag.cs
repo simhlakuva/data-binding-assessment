@@ -1,12 +1,15 @@
 using System;
+using System.Runtime.CompilerServices;
 
 namespace FlagData
 {
     /// <summary>
     /// This model object represents a single flag
     /// </summary>
-    public class Flag
-    {
+    public class Flag 
+    { 
+   
+    
         /// <summary>
         /// Name of the country that this flag belongs to
         /// </summary>
